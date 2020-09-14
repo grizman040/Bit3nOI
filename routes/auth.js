@@ -6,13 +6,12 @@ const bcrypt = require("bcryptjs");
 const crypto = require('crypto')
 const jwt = require('jsonwebtoken');
 const { JWT_SECRET } = require("../keys");
-const requireLogin = require("./middleware/requireLogin");
 // const salt = bcrypt.genSaltSync(10);
 // const hash = bcrypt.hashSync("B4c0/\/", salt);
 
-router.get("/protected",requireLogin, (req, res) => {
-  res.send("Hello User")
-});
+// router.get("/protected",requireLogin, (req, res) => {
+//   res.send("Hello User")
+// });
 
 
 router.post("/signup", (req, res) => {

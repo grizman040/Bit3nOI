@@ -1,0 +1,18 @@
+body {
+    background-color: #010e2c;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+nav {
+    background: rgb(18, 18, 92);
+    box-shadow: 3px 3px 15px 15px rgb(116, 54, 173);
+    width: 100%;
+}
+.sc-bdnylx {
+    width: 100%;
+    margin: 10px auto;
+}
+.brand-logo {
+    margin-left: 30px;
+}
